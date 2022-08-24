@@ -1,0 +1,100 @@
+/*Expressões e operadores
+    -Expressions
+    -Operators
+        Binary
+        Unary
+        Ternary
+*/
+//Expresssões são bem tranquilas, porque expressões são qualquer linha de código que resolve alguma coisa no JavaScript, um exemplo é a expressão:
+//*expressões*
+//unário
+let number = 1;
+//numberA = numberA = 1
+
+//binário
+let numberA = 1;
+console.log(++numberA);
+
+//binário
+let numberB = 1
+console.log(numberB = 1);
+
+//ternário
+// let numberC = 1;
+// console.log (true ? 'alo' : 'nada');
+
+//Expression NEW; A determinante New identifica que o conteúdo da variável é um novo objeto
+//let nameStudent = new string ('Thiago');
+//let ageStudent = new Number (25);
+//console.log(nameStudent, ageStudent);
+
+//---------------------------------------
+//let nameStudent = new String ('Thiago');
+//nameStudent.surName = "Garcia";
+//let ageStudent = new Number (25);
+//console.log(nameStudent.surName, ageStudent);
+
+/*
+   Operadores unários
+   typeof
+   deleter
+ */   
+   const Students = {
+          nameStudent: 'Thiago',
+          age: 25,     
+   }
+   delete Students.age; // Se o indentificar a age existir ele será deletado
+   console.log(Students);
+   //OPERADORES ARITMÉTICOS 
+       //multiplicação
+       console.log(3.2 * 5);
+
+       //divisão
+       console.log(12 / 2);
+
+       //soma
+       console.log(34 + 67);
+
+       //subtração
+       console.log(34 - 23);
+       //resto da divisão % (Resto)
+       let remainder
+       remainder = 11 % 9;
+       console.log( remainder );
+
+       //incremento ++ 
+       let increment = 0;
+       increment++;
+       console.log(increment);
+       console.log(increment++);
+       console.log(++increment);
+       console.log(increment);
+
+
+       //decremento --
+       let decrement = 4;
+       console.log(decrement);
+
+       console.log(decrement--);
+       console.log(--decrement);
+
+       console.log(decrement);
+
+       //exponencial
+       console.log(3 ** 3); // 27
+       console.log( 3 ** 2); // 9
+
+
+
+//GROUP OPERATIPON
+//OPERADOR QUE AGRUPA EXPRESSÕES. ()
+
+let total = 2 + 3 *5; 
+console.log(total);
+
+total = (2 + 3) * 5;
+console.log(total);
+
+let stringOperation = (" alo alo " + " voce ");
+console.log(stringOperation);
+
